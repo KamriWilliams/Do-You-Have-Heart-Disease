@@ -2,12 +2,12 @@
 A machine learning project by Kamri Williams
 
 ## Overview
-### Research question: “Are you at risk for heart disease?”. 
+**Research question: “Are you at risk for heart disease?”**
 
-This project builds and compares machine learning models to predict a patient's likelihood of heart disease based on clinical health metrics."
+This project builds and compares machine learning models to predict a patient's likelihood of heart disease based on clinical health metrics.
 
 ## Dataset
-This data consist of anonymouse patient health data. 
+This data consist of anonymous patient health data. 
 
 Dataset source: https://www.kaggle.com/datasets/krishujeniya/heartdiseae?
 
@@ -22,7 +22,7 @@ Dataset source: https://www.kaggle.com/datasets/krishujeniya/heartdiseae?
 
 ## Project Workflow
 
-1. Evaluating & Cleaning the Data —The data was explored for missing values, outliers, and prepared for modeling using pandas functions such as such as .isnull(), StandardScaler, and one-hot encoding.
+1. Evaluating & Cleaning the Data —The data was explored for missing values, outliers, and prepared for modeling using pandas functions such as .isnull(), StandardScaler, and one-hot encoding.
 2. Splitting & Testing the Data — The data was split into 80% training and 20% test sets, with 5 fold cross validation to validate the split.
 3. Building the Models — Two models were built to predict heart disease risk: Logistic Regression and KNN.
 4. Evaluating the Models — Models were compared using accuracy, precision, recall, and ROC-AUC score.
